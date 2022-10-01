@@ -11,9 +11,9 @@ import blurIndigoImage from '@/images/blur-indigo.png'
 const codeLanguage = 'javascript'
 const code = `export default {
   company: 'Swipoo',
-  team: {
-    developers: 3,
-    customerSupport: 2,
+  vehicle: {
+    brand: 'Audi',
+    model: 'A5 Sportback 2.0 TFSI 225',
   },
 }`
 
@@ -52,8 +52,7 @@ export function Hero() {
                 Swipoo&apos;s Documentation.
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Easy API integration, secured with Auth0 JWT tokens, to make
-                tramits simpler, faster and more secure.
+                API integration to make automotive burocracy, easier, faster and more secure.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>

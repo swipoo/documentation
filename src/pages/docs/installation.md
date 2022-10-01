@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Setup
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
