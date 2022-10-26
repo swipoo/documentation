@@ -55,7 +55,7 @@ export default function Document() {
   return (
     <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
       <Head>
-        <meta name="robots" content="noindex, nofollow">
+        <meta name="robots" content="noindex, nofollow" />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </Head>
       <body className="bg-white dark:bg-slate-900">
